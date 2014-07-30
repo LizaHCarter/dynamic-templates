@@ -2,3 +2,29 @@
 @import url(http://fonts.googleapis.com/css?family=Syncopate);
 @import url(http://fonts.googleapis.com/css?family=Pacifico);
 
+table{
+  border: 1px solid grey;
+  padding: 0px;
+}
+
+table td{
+  padding: 0px;
+  width: 50px;
+  height: 50px;
+  background-color: grey;
+  background-size: cover;
+}
+
+/*checkerboard */
+table tr:nth-child(2n) td:nth-child(2n), table tr:nth-child(2n-1) td:nth-child(2n-1){
+background-color: white;
+}
+/*top pieces*/
+table tr:nth-child(-2n+3) td:nth-child(2n-1), table tr:nth-child(2) td:nth-child(2n){
+  background-image: url("http://li.c-b.co/is/image/LandOfNod/Chalkboard_Circle_16in_205796_LL/$web_zoom$&wid=50&hei=50/1308310657/perfect-circle-chalkboard.jpg")
+}
+/*bottom pieces*/
+table tr:nth-child(2n+6) td:nth-child(2n), table tr:nth-child(7) td:nth-child(2n-1){
+  background-image: url("http://www.clogsmusic.com/padma/redCircle50x50.gif")
+}
+
