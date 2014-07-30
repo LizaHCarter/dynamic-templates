@@ -28,3 +28,5 @@ table tr:nth-child(2n+6) td:nth-child(2n), table tr:nth-child(7) td:nth-child(2n
   background-image: url("http://www.clogsmusic.com/padma/redCircle50x50.gif")
 }
 
+h2:nth-child(2)
+

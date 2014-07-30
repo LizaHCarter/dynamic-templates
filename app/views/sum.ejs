@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset = "utf-8">
+    <title>Sum</title>
+    <link rel = "stylesheet" href = "/css/style.css">
+  </head>
+  <body>
+    <h1>Sum</h1>
+    <% var sum = x + y + z + a %>
+    <% var colors = (sum%2) ? 'red' : 'blue'%>
+    <h2 style = "font-size:<%= fontsize %>; border:<%= borderwidth %> solid <%= color%> ;"><%= x %>+<%= y %>+<%= z  %>+<%= a  %> = 
+      <span style="color:<%= colors%>"><%= sum%></span>
+    </h2>
+  </body>
+</html>
